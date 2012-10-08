@@ -1,0 +1,16 @@
+{
+  "name": "fileserver",
+  "version": "0.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "vfs-http-adapter": "~0.2.3",
+    "vfs-local": "~0.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "license": "BSD",
+  "description": "Static file server Keep the files in public directory"
+}
